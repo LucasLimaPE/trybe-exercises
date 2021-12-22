@@ -1,3 +1,6 @@
+
+[//]: <> (Este README e o meu repositório de exercícios foi baseado no repositório deste link: https://github.com/paulohbsimoes/trybe-exercises)
+
 # Trybe - Exercícios
 
 Contém todas as atividades desenvolvidas por __[Lucas Lima]()__ durante o curso na [Trybe](https://www.linkedin.com/in/lucas-roberto-490699174/) :rocket:
