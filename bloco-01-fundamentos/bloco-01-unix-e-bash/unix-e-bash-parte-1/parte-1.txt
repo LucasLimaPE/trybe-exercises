@@ -49,6 +49,10 @@ ls *
 
 rm -rf backup 
 
+13 - Limpe o terminal.
+
+clear
+
 
 
 
