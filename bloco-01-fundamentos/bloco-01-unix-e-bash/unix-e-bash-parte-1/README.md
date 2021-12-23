@@ -48,3 +48,4 @@ SQL
 15. Mostre na tela as 4 últimas skills do arquivo `skills.txt`.
 
 16. Apague todos os arquivos que terminem em `.txt`.
+
