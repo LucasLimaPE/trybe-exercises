@@ -40,3 +40,6 @@ wc -l phrases.txt
 
 cat > empty.tbt empty.pdf
 
+11 - Liste todos os arquivos do diretório unix_tests .
+
+ls *
