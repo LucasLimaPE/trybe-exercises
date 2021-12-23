@@ -9,7 +9,7 @@ touch trybe.txt
 
 3 - Crie uma cópia do arquivo trybe.txt com nome trybe_backup.txt .
 
-cp trybe.txt trybe_backuo.txt
+cp trybe.txt trybe_backckp.txt
 
 4 - Renomeie o arquivo trybe.txt .
 
@@ -18,5 +18,16 @@ mv trybe.txt trybe2.txt
 5 - Dentro de unix_tests, crie um novo diretório chamado backup .
 
 mkdir backup
+
+6 - Mova o arquivo trybe_backup.txt para o diretório backup .
+
+mv trybe_backup.txt backup
+
+7 - Dentro de unix_tests , crie um novo diretório chamado backup2 .
+
+mkdir backup2
+
+
+
 
 
