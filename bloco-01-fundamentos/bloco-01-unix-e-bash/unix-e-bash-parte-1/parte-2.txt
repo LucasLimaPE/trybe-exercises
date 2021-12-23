@@ -51,3 +51,7 @@ ls *.txt
 13 -Liste todos os arquivos que terminem com tbt ou txt .
 
 ls *.tbt *.txt
+
+14 - Acesse o manual do comando ls .
+
+man ls
