@@ -45,6 +45,10 @@ mv backup2 backup
 pwd
 ls *
 
+12 - Apague o diretório backup .
+
+rm -rf backup 
+
 
 
 
