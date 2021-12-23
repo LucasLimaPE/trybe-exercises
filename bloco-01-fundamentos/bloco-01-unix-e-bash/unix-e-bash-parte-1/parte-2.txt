@@ -27,3 +27,8 @@ grep -i brazil countries.txt
 7 -Busque pelas frases que não contenham a palavra fox .
 
 grep -iv 'fox' phrases.txt
+
+8 - Conte o número de palavras do arquivo phrases.txt .
+
+wc -w phrases.txt
+
