@@ -5,3 +5,6 @@ curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efc
 
 2 - Mostre todo o conteúdo do arquivo countries.txt na tela.
 
+cat countries.txt 
+
+
