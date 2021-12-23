@@ -47,3 +47,7 @@ ls *
 12 - Liste todos os arquivos que terminem com txt .
 
 ls *.txt
+
+13 -Liste todos os arquivos que terminem com tbt ou txt .
+
+ls *.tbt *.txt
