@@ -20,3 +20,7 @@ less countries.txt
 
 grep Brazil countries.txt
 
+6 - Busque novamente por brazil , mas agora utilizando o lower case .
+
+grep -i brazil countries.txt
+
