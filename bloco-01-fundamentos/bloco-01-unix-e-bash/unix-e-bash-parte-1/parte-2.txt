@@ -43,3 +43,7 @@ cat > empty.tbt empty.pdf
 11 - Liste todos os arquivos do diretório unix_tests .
 
 ls *
+
+12 - Liste todos os arquivos que terminem com txt .
+
+ls *.txt
