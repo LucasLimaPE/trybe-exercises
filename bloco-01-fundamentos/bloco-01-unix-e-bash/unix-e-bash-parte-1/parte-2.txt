@@ -36,3 +36,7 @@ wc -w phrases.txt
 
 wc -l phrases.txt
 
+10 - Crie os arquivos empty.tbt e empty.pdf .
+
+cat > empty.tbt empty.pdf
+
