@@ -1,35 +1,38 @@
-Exercícios
-Parte I - Criação de arquivos e diretórios
-Dica : Para criação de arquivos vazios você pode utilizar o comando touch nome-do-arquivo.extensao.
+# Exercícios
 
-Utilizando o terminal, aplique o comando de criação de diretórios que você aprendeu: crie um diretório chamado unix_tests e navegue até ele.
+## Parte I - Criação de arquivos e diretórios
 
-Crie um arquivo de texto com o nome trybe.txt.
+**Dica :** Para criação de arquivos vazios você pode utilizar o comando `touch nome-do-arquivo.extensao`.
 
-Crie uma cópia do arquivo trybe.txt com nome trybe_backup.txt.
+1. Utilizando o terminal, aplique o comando de criação de diretórios que você aprendeu: crie um diretório chamado `unix_tests` e navegue até ele.
 
-Renomeie o arquivo trybe.txt.
+2. Crie um arquivo de texto com o nome `trybe.txt`.
 
-Dentro de unix_tests , crie um novo diretório chamado backup.
+3. Crie uma cópia do arquivo `trybe.txt` com nome `trybe_backup.txt`.
 
-Mova o arquivo trybe_backup.txt para o diretório backup.
+4. Renomeie o arquivo `trybe.txt`.
 
-Dentro de unix_tests , crie um novo diretório chamado backup2.
+5. Dentro de `unix_tests` , crie um novo diretório chamado `backup`.
 
-Mova o arquivo trybe_backup.txt da pasta backup para a pasta backup2.
+6. Mova o arquivo `trybe_backup.txt` para o diretório `backup`.
 
-Apague a pasta backup.
+7. Dentro de `unix_tests` , crie um novo diretório chamado `backup2`.
 
-Renomeie a pasta backup2 para backup.
+8. Mova o arquivo `trybe_backup.txt` da pasta `backup` para a pasta `backup2`.
 
-Veja qual o path completo do diretório atual e liste todos os arquivos dentro dele.
+9. Apague a pasta `backup`.
 
-Apague o diretório backup.
+10. Renomeie a pasta `backup2` para `backup`.
 
-Limpe o terminal.
+11. Veja qual o path completo do diretório atual e liste todos os arquivos dentro dele.
 
-Para os exercícios, 14 e 15, crie, de forma manual na parte gráfica do seu sistema operacional, um arquivo de texto com o conteúdo abaixo, chamado skills.txt:
+12. Apague o diretório `backup`.
 
+13. Limpe o terminal.
+
+**Para os exercícios, 14 e 15, crie, de forma manual na parte gráfica do seu sistema operacional, um arquivo de texto com o conteúdo abaixo, chamado `skills.txt`:**
+
+```
 Internet
 Unix
 Bash
@@ -38,7 +41,10 @@ CSS
 JavaScript
 React
 SQL
-Mostre na tela as 5 primeiras skills do arquivo skills.txt.
+```
 
-Mostre na tela as 4 últimas skills do arquivo skills.txt.
+14. Mostre na tela as 5 primeiras skills do arquivo `skills.txt`.
 
+15. Mostre na tela as 4 últimas skills do arquivo `skills.txt`.
+
+16. Apague todos os arquivos que terminem em `.txt`.
