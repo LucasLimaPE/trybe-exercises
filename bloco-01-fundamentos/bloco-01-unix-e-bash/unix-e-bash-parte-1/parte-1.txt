@@ -36,4 +36,15 @@ mv trybe_backup.txt /home/lucaslima/trybe-exercices/bloco-01-fundamentos/bloco-0
 
 rm -rf backup
 
+10 - Renomeie a pasta backup2 para backup .
+
+mv backup2 backup
+
+11 - Veja qual o path completo do diretório atual e liste todos os arquivos dentro dele.
+
+pwd
+ls *
+
+
+
 
