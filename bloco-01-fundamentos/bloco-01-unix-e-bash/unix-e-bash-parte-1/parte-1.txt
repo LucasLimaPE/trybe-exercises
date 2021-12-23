@@ -61,5 +61,7 @@ head -5 skills.txt
 
 tail -4 skills.txt
 
+16 - Apague todos os arquivos que terminem em .txt .
 
+rm *.txt
 
