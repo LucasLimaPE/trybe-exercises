@@ -11,8 +11,13 @@ sleep 30 &
 ps
 kill 16034
 
-Execute novamente o comando sleep 30 , mas agora sem o & . Depois, faça com que ele continue executando em background;
+4 - Execute novamente o comando sleep 30 , mas agora sem o & . Depois, faça com que ele continue executando em background;
 
 sleep 30
 ctrl + z
 bg 
+
+5 - Crie um processo em background que rode o comando sleep por 300 segundos.
+
+sleep 300 &
+
