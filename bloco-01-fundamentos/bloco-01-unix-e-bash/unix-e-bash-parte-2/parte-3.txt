@@ -21,3 +21,9 @@ bg
 
 sleep 300 &
 
+6 - Crie mais dois processos que rodem o comando sleep por 200 e 100 segundos, respectivamente.
+
+sleep 200
+ctrl + z
+sleep 100
+ctrl + z
