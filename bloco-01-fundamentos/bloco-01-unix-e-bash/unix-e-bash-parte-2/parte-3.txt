@@ -27,3 +27,10 @@ sleep 200
 ctrl + z
 sleep 100
 ctrl + z
+
+
+7 - Verifique que apenas o processo sleep 300 está em execução com o comando jobs . Suspenda a execução desse processo.
+
+jobs
+fg %1
+ctrl +z
