@@ -21,3 +21,9 @@ sudo apt-get install sl
 sl
 sl -F 
 
+5 - No sistema Linux , execute o comando sudo apt-get install cowsay , ou brew install cowsay no macOS . Após a instalação, execute o comando cowsay e algo que você queira falar. Agora faça a vaquinha dizer a frase que está gravada no arquivo fortune.txt ;
+
+sudo apt-get install cowsay
+cowsay Bom dia.
+tail fortune.txt | cowsay
+
