@@ -10,3 +10,9 @@ sleep 30 &
 
 ps
 kill 16034
+
+Execute novamente o comando sleep 30 , mas agora sem o & . Depois, faça com que ele continue executando em background;
+
+sleep 30
+ctrl + z
+bg 
