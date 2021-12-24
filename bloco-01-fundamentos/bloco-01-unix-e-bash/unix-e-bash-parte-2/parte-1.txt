@@ -1,0 +1,30 @@
+1 - Navegue até a pasta unix_tests ;
+ 
+cd ..
+cd unix-e-bash-parte-1
+cd unix_testes
+
+2 - Crie um arquivo texto pelo terminal com o nome skills2.txt e adicione os valores Internet , Unix e Bash , um em cada linha.
+
+cat >> skills2.txt
+Internet
+Unix
+Bash
+
+3 - Adicione mais 5 itens à sua lista de skills e depois imprima a lista ordenada no terminal. 🤓
+
+cat >> skills2.txt 
+HTML
+CSS
+JAVASCRIPT
+GITGITHUB
+PHYTON
+
+sort skills2.txt 
+
+4 - Conte quantas linhas tem o arquivo skills2.txt .
+
+wc -l skills2.txt 
+8 skills2.txt
+
+
