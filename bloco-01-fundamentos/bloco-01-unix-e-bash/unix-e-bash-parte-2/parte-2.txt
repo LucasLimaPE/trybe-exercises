@@ -4,3 +4,12 @@ cd ..
 cd unix-e-bash-parte-1
 cd unix_tests
 
+2 - Rode o comando ls -l e veja quais as permissões dos arquivos;
+
+ls -l 
+total 16
+-rw-rw-r-- 1 lucaslima lucaslima 3879 dez 24 12:06 bunch_of_things.txt
+-rw-rw-r-- 1 lucaslima lucaslima 2036 dez 24 12:03 phrases2.txt
+-rw-rw-r-- 1 lucaslima lucaslima   57 dez 24 11:21 skills2.txt
+-rw-rw-r-- 1 lucaslima lucaslima   20 dez 24 11:31 top_skills.txt
+
