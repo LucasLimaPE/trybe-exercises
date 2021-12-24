@@ -11,3 +11,7 @@ cat >> fortune.txt
 Beber café quentinho.
 ctrl + c
 
+3 - Conte quantas palavras tem a frase da sua sorte do dia. Dica: use o comando wc ;
+
+wc -w fortune.txt
+
