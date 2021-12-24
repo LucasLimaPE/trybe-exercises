@@ -49,3 +49,17 @@ grep br phrases2.txt | wc -l
 grep -v br phrases2.txt | wc -l
 5
 
+9 - Adicione dois nomes de países ao final do arquivo phrases2.txt .
+
+cat >> phrases2.txt 
+Brazil
+Argentina
+
+10 - Crie um novo arquivo chamado bunch_of_things.txt com os conteúdos dos arquivos phrases2.txt e countries.txt.
+
+cp countries.txt bunch_of_things.txt
+cat phrases2.txt >> bunch_of_things.txt
+
+11 - Ordene o arquivo bunch_of_things.txt .
+
+sort bunch_of_things.txt -o bunch_of_things.txt
