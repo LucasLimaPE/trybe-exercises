@@ -15,3 +15,9 @@ ctrl + c
 
 wc -w fortune.txt
 
+4 - Execute o comando sudo apt-get install sl em um terminal Linux , ou brew install sl em um terminal macOS . Após a instalação, execute o comando sl . Agora tente sl -F ;
+
+sudo apt-get install sl
+sl
+sl -F 
+
