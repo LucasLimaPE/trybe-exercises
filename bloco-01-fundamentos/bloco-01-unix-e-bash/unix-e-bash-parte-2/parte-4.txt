@@ -4,3 +4,10 @@ sudo apt-get install cmatrix
 cmatrix
 ctrl + c
 
+2 - No sistema Linux , execute o comando sudo apt-get install fortune , ou no macOS brew install fortune , e após a instalação, crie um arquivo de texto chamado fortune.txt que contenha a sua sorte do dia. Utilize apenas uma linha de comando. Dica: use o comando fortune , e o operador > ;
+
+sudo apt-get install fortune
+cat >> fortune.txt
+Beber café quentinho.
+ctrl + c
+
