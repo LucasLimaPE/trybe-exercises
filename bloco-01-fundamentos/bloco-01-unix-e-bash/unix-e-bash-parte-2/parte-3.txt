@@ -1,3 +1,5 @@
 1 - Liste todos os processos;
 
 ps
+
+2 - Agora use o comando sleep 30 & ;
