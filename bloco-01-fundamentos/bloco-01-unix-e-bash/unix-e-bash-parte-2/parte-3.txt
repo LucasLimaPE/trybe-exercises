@@ -3,3 +3,6 @@
 ps
 
 2 - Agora use o comando sleep 30 & ;
+
+sleep 30 &
+
