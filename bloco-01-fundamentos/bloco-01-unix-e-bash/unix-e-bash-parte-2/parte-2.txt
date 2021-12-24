@@ -13,3 +13,7 @@ total 16
 -rw-rw-r-- 1 lucaslima lucaslima   57 dez 24 11:21 skills2.txt
 -rw-rw-r-- 1 lucaslima lucaslima   20 dez 24 11:31 top_skills.txt
 
+3 - Mude a permissão do arquivo bunch_of_things.txt para que todos os usuários possam ter acesso à leitura e escrita, e verifique se está correto com o comando ls -l ;
+Resultado esperado: -rw-rw-rw- 1 ana ana 1860 ago 13 11:39 bunch_of_things.txt
+
+chmod a+rw bunch_of_things.txt
