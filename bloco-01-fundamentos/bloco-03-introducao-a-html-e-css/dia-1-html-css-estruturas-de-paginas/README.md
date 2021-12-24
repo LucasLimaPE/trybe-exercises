@@ -21,8 +21,7 @@
 2 - Inicie um novo repositório local com Git no diretório que você criou na etapa 1;
 3 - Crie um arquivo index.html ;
 4 - Para executar o seu código enquanto o desenvolve, utilize a extensão Live Server . Para saber mais sobre ela acesse nosso conteúdo sobre isso.
-
-
+5 - Após a criaçao do portfólio, adicione-o ao GitHub Pages.
 
 
 
