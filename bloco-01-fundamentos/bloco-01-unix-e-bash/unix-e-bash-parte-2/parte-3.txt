@@ -34,3 +34,8 @@ ctrl + z
 jobs
 fg %1
 ctrl +z
+
+8 - Retome a execução do processo sleep 100 em background com o comando bg .
+
+bg %3
+
