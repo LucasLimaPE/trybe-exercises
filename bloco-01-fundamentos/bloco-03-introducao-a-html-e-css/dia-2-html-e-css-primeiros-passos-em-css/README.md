@@ -31,4 +31,15 @@
 1 - Coloque todo o CSS criado até agora nos exercícios anteriores em um arquivo externo.
 
 
+## Parte IV - Estilizando seu Portfólio Web - Requisitos:
+
+1 - Seu Portfólio Web deve ser estilizado usando as informações a seguir:\
+
+2 - Defina fontes diferentes para o seu nome e para a descrição que você criou;\
+
+3 - Defina uma cor base de background do seu Portfólio Web;\
+
+4 - Altere o estilo das tags que você usou para destacar algumas informações, como sua nacionalidade e a cidade/estado onde mora;\
+
+5 - Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou. Lembre-se de usar classes para cada um dos elementos;
 
