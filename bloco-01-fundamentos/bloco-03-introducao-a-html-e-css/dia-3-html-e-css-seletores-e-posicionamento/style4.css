@@ -1,3 +1,22 @@
+div {
+    background-color: grey;
+}
 div:hover {
     border: 5px solid black;
 }
+
+div:nth-child(4n) {
+    background-color: pink;
+}
+div:nth-child(5n) {
+    background-color: blue;
+}
+div:nth-child(6n) {
+    background-color: red;
+}
+div:nth-child(7n) {
+    background-color: yellow;
+}
+
+
+
