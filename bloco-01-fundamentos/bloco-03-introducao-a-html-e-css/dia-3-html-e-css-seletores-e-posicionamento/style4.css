@@ -53,6 +53,8 @@ div:nth-of-type(5) > h3 {
     size: 30px;
     color: pink;
 }
-
+div:nth-of-type(3) {
+    height: 100px;
+}
 
 
