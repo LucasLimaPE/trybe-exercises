@@ -9,12 +9,15 @@
 }
 
 .baloon {
+  display: inline-block;
 
 }
 
 .speach {
   font-size: 25px;
+  display: inline-block;
 }
 
 .bowser {
   width: 200px;
+  display: inline-block;
