@@ -18,11 +18,15 @@
   font-size: 25px;
   display: inline-block;
   position: absolute;
+  z-index: 1;
+  margin-top: 70px;
+  margin-left: 25px;
 }
 
 .bowser {
   width: 200px;
   display: inline-block;
-  margin-left:px;
+  margin-left: 300px;
   position: absolute;
+  margin-top: 150px;
 }
