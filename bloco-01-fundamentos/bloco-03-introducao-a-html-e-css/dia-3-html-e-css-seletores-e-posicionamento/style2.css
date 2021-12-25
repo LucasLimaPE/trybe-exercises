@@ -10,14 +10,19 @@
 
 .baloon {
   display: inline-block;
-
+  margin-left:px;
+  position: absolute;
 }
 
 .speach {
   font-size: 25px;
   display: inline-block;
+  position: absolute;
 }
 
 .bowser {
   width: 200px;
   display: inline-block;
+  margin-left:px;
+  position: absolute;
+}
