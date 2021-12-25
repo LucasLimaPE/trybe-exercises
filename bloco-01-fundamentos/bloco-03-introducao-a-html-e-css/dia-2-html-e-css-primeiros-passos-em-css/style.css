@@ -1,0 +1,31 @@
+#title {
+    font-size: 3em;
+    color: orange;
+    font-family: sans-serif;
+    
+  } 
+  #lista {
+    background-color: blue;
+    text-decoration: overline;
+  }
+  .changeBackGround {
+    background-color: red;
+
+  }
+  #paragraph {
+    font-weight: 600;
+    line-height: 20px;
+  }
+  #body {
+    font-size: 16px;
+    font-style: oblique;
+  }
+  #yellow {
+    background-color: yellow;
+  }
+  #red {
+    background-color: red;
+  }
+  #brown {
+    background-color: brown;
+  }
