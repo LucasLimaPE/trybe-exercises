@@ -35,6 +35,21 @@ li.ling {
 li.java {
     background-color: pink;
 }
-
+a.stack:hover {
+    font-weight: bold;
+    color: orange;
+}
+a.verde:hover {
+    font-weight: bold;
+    color: green;
+}
+a.MDN:hover {
+    font-weight: bold;
+    color: black;
+}
+a.devdocs:hover {
+    font-weight: bold;
+    color: yellow;
+}
 
 
