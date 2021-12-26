@@ -30,7 +30,10 @@ li.italico {
     font-weight: bold;
 }
 li.ling {
-    background-color: blue;
+    color: blue;
+}
+li.java {
+    background-color: pink;
 }
 
 
