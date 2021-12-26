@@ -29,5 +29,8 @@ li {
 li.italico {
     font-weight: bold;
 }
+li.ling {
+    background-color: blue;
+}
 
 
