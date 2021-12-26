@@ -1,0 +1,69 @@
+/* Referenciado do gabarito do course. 
+1 - Estilize as divs para que, ao passar o cursor por cima das mesmas, elas ganhem uma borda.
+2 - Faça cada div ter uma cor própria.
+3 - Estilize cada uma das tags h3 .
+4 - Faça a terceira div ser maior que as demais.
+5 - Deixe as tags ímpares h3 com o texto em itálico.
+*/
+div:hover {
+    border: 5px solid black;
+}
+
+div:nth-of-type(1) {
+    background-color: pink;
+}
+div:nth-of-type(2) {
+    background-color: blue;
+}
+div:nth-of-type(3) {
+    background-color: red;
+}
+div:nth-of-type(4) {
+    background-color: yellow;
+}
+div:nth-of-type(5) {
+    background-color: green;
+}
+
+div:nth-of-type(1) > h3 {
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    size: 10px;
+    color: red;
+}
+
+div:nth-of-type(2) > h3 {
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    size: 15px;
+    color: aqua;
+}
+
+div:nth-of-type(3) > h3 {
+    font-size:x-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    size: 20px;
+    color: black;
+}
+
+div:nth-of-type(4) > h3 {
+    font-size:xx-large;
+    font-family:Arial, Helvetica, sans-serif;
+    size: 25px;
+    color: red;
+}
+
+div:nth-of-type(5) > h3 {
+    font-size:smaller;
+    font-family:monospace;
+    size: 30px;
+    color: pink;
+}
+div:nth-of-type(3) {
+    height: 100px;
+}
+div:nth-of-type(odd) {
+    font-style: italic;
+}
+
+
