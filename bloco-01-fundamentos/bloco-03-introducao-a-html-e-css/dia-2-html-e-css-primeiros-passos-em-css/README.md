@@ -1,6 +1,6 @@
- #  - Exercícios - HMTML & CSS - Primeiros passos em CSS
+# Exercícios - 3.2 - HMTML & CSS - Primeiros passos em CSS.
 
-## Parte I - Introdução ao CSS:
+## Parte 1 - Introdução ao CSS -
 
 
 1 - Modifique o tamanho do h1 para 65 pixels;\
@@ -12,7 +12,7 @@
 4 - Crie uma classe para modificar a cor de fundo da tag p e da ul ao mesmo tempo.
 
 
-## Parte II - Propriedades de texto no CSS:
+## Parte 2 - Propriedades de texto no CSS -
 
 1 - Modifique o família do h1 para sans-serif;\
 
@@ -26,12 +26,12 @@
 
 6 - Troque a cor de fundo de cada item da lista para a cor correspondente ao texto;
 
-## Parte III - CSS inline e externo:
+## Parte 3 - CSS inline e externo -
 
 1 - Coloque todo o CSS criado até agora nos exercícios anteriores em um arquivo externo.
 
 
-## Parte IV - Estilizando seu Portfólio Web - Requisitos:
+## Parte 4 - Estilizando Portfólio Web - Requisitos - 
 
 1 - Seu Portfólio Web deve ser estilizado usando as informações a seguir:\
 
@@ -42,4 +42,3 @@
 4 - Altere o estilo das tags que você usou para destacar algumas informações, como sua nacionalidade e a cidade/estado onde mora;\
 
 5 - Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou. Lembre-se de usar classes para cada um dos elementos;
-
