@@ -1,6 +1,6 @@
 # Exercícios - 3.4 - HTML & CSS - HTML semântico.
 
-## Parte 1
+## Parte 1 - Aplicando elementos HTML de acordo com o sentido - Elementos de bloco e elemtnos inline.
 
 1 - Adicione um cabeçalho na página contendo o título Soco a 80km/h: Conheça o Stomatopoda .\
 2 - Adicione um conjunto de links que representam a área de navegação do site.\
