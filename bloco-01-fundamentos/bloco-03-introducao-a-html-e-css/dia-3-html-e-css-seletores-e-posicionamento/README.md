@@ -1,4 +1,4 @@
-# Exercícios - HTML e CSS - Seletores e posicionamento -
+# Exercícios - 3.3 - HTML e CSS - Seletores e posicionamento -
 
 ## Parte 1 - Box Model - Modelo de caixas no CSS - 
 ## Arquivos - index.html / style.css -
@@ -15,7 +15,7 @@
 3 - Posicione o balão para que se torne uma fala de Bowser.
 
 ## Parte 3 - Agrupamento de Seletores e Pseudoclasses -
-## Arquivos - index3.html / style3.css
+## Arquivos - index3.html / style3.css - 
 
 1 - Adicione uma lista ordenada dos 3 melhores sites que você conhece.\
 2 - Crie um arquivo no mesmo diretório e nomeie-o de 'style.css'.\
@@ -26,7 +26,7 @@ A fonte do item mude quando ele for clicado.\
 4 - Adicione uma lista não ordenada com, pelo menos, 3 características que você gosta.\
 5 - No 'style.css', adicione a propriedade 'list-style: none' para ambas as listas.
 
-## Exercício 2 - Parte 3 - Agrupamento de Seletores e Pseudoclasses -
+## Parte 3 - Exercício 2 - Agrupamento de Seletores e Pseudoclasses -
 ## Arquivos - index4.html / style4.css - 
 
 1 - Estilize as divs para que, ao passar o cursor por cima das mesmas, elas ganhem uma borda.\
@@ -36,7 +36,7 @@ A fonte do item mude quando ele for clicado.\
 5 - Deixe as tags ímpares h3 com o texto em itálico.
 
 ## Parte 4 - Combinações e Classes Descendentes -
-## Arquivos - index5.html / style5.css
+## Arquivos - index5.html / style5.css -
 
 1 - Faça com que todos os itens de Listas Ordenadas tenham uma cor de fundo amarela. Se a numeração do item for PAR, faça a cor de fonte ser verde. Se o número for considerado ÍMPAR, utilize a propriedade text-transform para deixar o texto maiúsculo. (Dica: combinar classes pode ser útil aqui).\
 2 - Faça todas as tags Header (h1, h2...) possuírem cor de fonte vermelha e, se alguma delas estiver em itálico, aumente seu tamanho para 40px e acrescente uma borda de 1px preta e sólida.\
@@ -45,7 +45,3 @@ A fonte do item mude quando ele for clicado.\
 5 - (Bônus) Para cada link na lista de aliados da pessoa desenvolvedora, faça com que ao passar o mouse sobre cada um, o texto fique em negrito e assuma a cor de fonte "temática do site"
 Dica 1: Utilize o seletor :hover para controlar o passar do mouse.
 Dica 2: Sugestão de cores padrão. StackOverflow (laranja), W3Schools (verde), MDN (preta), DevDocs (amarela), Trybe (verde).
-
-
-
-

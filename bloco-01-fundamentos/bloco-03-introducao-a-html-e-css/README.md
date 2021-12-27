@@ -2,19 +2,19 @@
 
 ## Exercícios - 3.1 - HTML & CSS - Estruturas de página.
 
-### Parte 1
+### Parte 1 - Primeiras tags - 
 
 1 - Crie uma lista das pessoas que você já fez amizade na Trybe.\
 2 - Adicione uma imagem que venha de uma URL externa.\
 3 - Adicione uma imagem que está no seu computador, local.
 
-### Parte 2
+### Parte 2 - HTML - Links externos e internos - 
 
 1 - Crie um parágrafo para cada pessoa da sua lista.\
 2 - Crie um link entre a sua lista e os parágrafos de pessoas.\
 3 - Crie um link para a página do Google.
 
-### Parte 3
+### Parte 3 - Construindo Portfólio Web - 
 
 1 - Crie um novo __[diretório](https://github.com/LucasLimaPE/portfolio-web)__ onde você vai desenvolver o seu portfólio. É importante que ele seja criado fora do seu diretório de exercícios , pois a sua manutenção daqui em diante será feita em outro ambiente.\
 2 - Inicie um novo repositório local com Git no diretório que você criou na etapa 1.\
@@ -24,7 +24,7 @@
 
 ## Exercícios - 3.2 - HMTML & CSS - Primeiros passos em CSS.
 
-### Parte 1 - Introdução ao CSS:
+### Parte 1 - Introdução ao CSS -
 
 
 1 - Modifique o tamanho do h1 para 65 pixels;\
@@ -36,7 +36,7 @@
 4 - Crie uma classe para modificar a cor de fundo da tag p e da ul ao mesmo tempo.
 
 
-### Parte 2 - Propriedades de texto no CSS:
+### Parte 2 - Propriedades de texto no CSS -
 
 1 - Modifique o família do h1 para sans-serif;\
 
@@ -50,12 +50,12 @@
 
 6 - Troque a cor de fundo de cada item da lista para a cor correspondente ao texto;
 
-### Parte 3 - CSS inline e externo:
+### Parte 3 - CSS inline e externo -
 
 1 - Coloque todo o CSS criado até agora nos exercícios anteriores em um arquivo externo.
 
 
-### Parte 4 - Estilizando seu Portfólio Web - Requisitos:
+### Parte 4 - Estilizando Portfólio Web - Requisitos - 
 
 1 - Seu Portfólio Web deve ser estilizado usando as informações a seguir:\
 
@@ -76,15 +76,15 @@
 2 - Insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D.\
 3 - Insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D.
 
-## Parte 2 - Posicionamento de Elementos -
-## Arquivos - index2.html / style2.css -
+### Parte 2 - Posicionamento de Elementos -
+### Arquivos - index2.html / style2.css -
 
 1 - 1 - Posicione o Mário acima do Goomba.\
 2 - Posicione a tag p para que fique dentro do balão de fala.\
 3 - Posicione o balão para que se torne uma fala de Bowser.
 
-## Parte 3 - Agrupamento de Seletores e Pseudoclasses -
-## Arquivos - index3.html / style3.css
+### Parte 3 - Agrupamento de Seletores e Pseudoclasses -
+### Arquivos - index3.html / style3.css - 
 
 1 - Adicione uma lista ordenada dos 3 melhores sites que você conhece.\
 2 - Crie um arquivo no mesmo diretório e nomeie-o de 'style.css'.\
@@ -95,8 +95,8 @@ A fonte do item mude quando ele for clicado.\
 4 - Adicione uma lista não ordenada com, pelo menos, 3 características que você gosta.\
 5 - No 'style.css', adicione a propriedade 'list-style: none' para ambas as listas.
 
-## Parte 3 - Exercício 2 - Agrupamento de Seletores e Pseudoclasses -
-## Arquivos - index4.html / style4.css - 
+### Parte 3 - Exercício 2 - Agrupamento de Seletores e Pseudoclasses -
+### Arquivos - index4.html / style4.css - 
 
 1 - Estilize as divs para que, ao passar o cursor por cima das mesmas, elas ganhem uma borda.\
 2 - Faça cada div ter uma cor própria\
@@ -104,8 +104,8 @@ A fonte do item mude quando ele for clicado.\
 4 - Faça a terceira div ser maior que as demais.\
 5 - Deixe as tags ímpares h3 com o texto em itálico.
 
-## Parte 4 - Combinações e Classes Descendentes -
-## Arquivos - index5.html / style5.css
+### Parte 4 - Combinações e Classes Descendentes -
+### Arquivos - index5.html / style5.css -
 
 1 - Faça com que todos os itens de Listas Ordenadas tenham uma cor de fundo amarela. Se a numeração do item for PAR, faça a cor de fonte ser verde. Se o número for considerado ÍMPAR, utilize a propriedade text-transform para deixar o texto maiúsculo. (Dica: combinar classes pode ser útil aqui).\
 2 - Faça todas as tags Header (h1, h2...) possuírem cor de fonte vermelha e, se alguma delas estiver em itálico, aumente seu tamanho para 40px e acrescente uma borda de 1px preta e sólida.\
@@ -115,9 +115,9 @@ A fonte do item mude quando ele for clicado.\
 Dica 1: Utilize o seletor :hover para controlar o passar do mouse.
 Dica 2: Sugestão de cores padrão. StackOverflow (laranja), W3Schools (verde), MDN (preta), DevDocs (amarela), Trybe (verde).
 
-## Exercícios - 3.4 - HTML & CSS - HTML semântico.
+## Exercícios - 3.4 - HTML & CSS - HTML semântico - 
 
-### Parte 1
+### Parte 1 - Aplicando elementos HTML de acordo com o sentido - Elementos de bloco e elementos inline -
 
 1 - Adicione um cabeçalho na página contendo o título Soco a 80km/h: Conheça o Stomatopoda .\
 2 - Adicione um conjunto de links que representam a área de navegação do site.\
