@@ -27,7 +27,7 @@ A fonte do item mude quando ele for clicado.\
 5 - No 'style.css', adicione a propriedade 'list-style: none' para ambas as listas.
 
 ## Exercício 2 - Parte 3 - Agrupamento de Seletores e Pseudoclasses -
-## Arquivos - index4html / style4.css - 
+## Arquivos - index4.html / style4.css - 
 
 1 - Estilize as divs para que, ao passar o cursor por cima das mesmas, elas ganhem uma borda.\
 2 - Faça cada div ter uma cor própria\
