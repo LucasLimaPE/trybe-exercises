@@ -6,8 +6,8 @@
 // Módulo (a % b)
 // Baseado no gabarito do course.
 
-let a = 5;
-let b = 6;
+const a = 5;
+const b = 6;
 
 console.log("Soma= " + (a + b));
 console.log("Subtração= " + (a - b));
