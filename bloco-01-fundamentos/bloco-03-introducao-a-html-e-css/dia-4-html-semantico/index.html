@@ -14,17 +14,21 @@ Adicione, para cada seção, uma imagem, como forma de ilustrar o fato.
 Adicione, por fim, uma seção de referências bibliográficas, contendo uma lista de todos os links que foram usados como base para compilar a página em questão.
 5 - Adicione um conteúdo adjacente ao artigo, disponibilizando um link para este vídeo, que mostra o animal em ação.
 6 - Adicione um rodapé na página, mostrando algo do gênero:
+Baseado em :
 
 html- semântico - https://www.devmedia.com.br/html-semantico-conheca-os-elementos-semanticos-da-html5/38065
+http://www.mhavila.com.br/topicos/web/css_tabelas.html
+https://app.betrybe.com/course/
  -->
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="style.css">
     <title>Soco a 80km/h: Connheça o Stomatopoda</title>
     <link rel="stylesheet" href="style.css">
+    
   </head>
   <body>
     <header>
@@ -32,12 +36,14 @@ html- semântico - https://www.devmedia.com.br/html-semantico-conheca-os-element
         Soco a 80km/h: Conheça o Stomatopoda.</h1>
     </header>
     <nav>
-      <li> <a href="">Página Inicial</a></li>
-      <li> <a href="">Sobre</a></li>
-      <li> <a href="">Contato</a></li>
+      <ul>
+        <li> <a href="#paginainicial">Página Inicial</a></li>
+        <li> <a href="#sobre">Sobre</a></li>
+        <li> <a href="#contato">Contato</a></li>
+      </ul>
     </nav>
     <article>
-      <h2>Fatos sobre o Stomatopoda.</h2>
+      <h2 id="paginainicial">Fatos sobre o Stomatopoda.</h2>
       <section>
       <H3>Informações gerais</H3>
       <p>Camarão mantis, camarão louva-a-Deus, camarão boxeador, camarão pistola, camarão de estalo, lacraia-do-mar e tamarutaca são alguns dos nomes comuns para o crustáceo marinho (muito parecido com um camarão, mas não é um camarão!) pertencente à ordem Stomatopoda, seu nome científico é 
@@ -46,40 +52,40 @@ html- semântico - https://www.devmedia.com.br/html-semantico-conheca-os-element
       <p>Na tabela a seguir constam informações biológicas do animal:</p>
       <table>
         <tr>
-          <td><strong>Reino</strong></td>
+          <td><strong>Reino: </strong></td>
           <td>Animalia</td>
         </tr>
         <tr>
-          <td><strong>Filo</strong></td>
+          <td><strong>Filo: </strong></td>
           <td>Arthropoda</td>
         </tr>
         <tr>
-          <td><strong>Subfilo</strong></td>
+          <td><strong>Subfilo: </strong></td>
           <td>Crustacea</td>
         </tr>
         <tr>
-          <td><strong>Classe</strong></td>
+          <td><strong>Classe: </strong></td>
           <td>Malacostraca</td>
         </tr>
         <tr>
-          <td><strong>Subclasse</strong></td>
+          <td><strong>Subclasse: </strong></td>
           <td>Hoplocarida</td>
         </tr>
         <tr>
-          <td><strong>Ordem</strong></td>
+          <td><strong>Ordem: </strong></td>
           <td>Stromatopoda</td>
         </tr>
         </table>
       </section>
       <section>
         <H3>Super soco</H3>
-        <p>Excelente golpeador, o tamarutaca "soca" suas presas com suas garras com uma força de até <em>2,5 mil vezes</em> seu peso em menos de 800 microsegundos. Este nocaute equivale a um tiro de pistola calibre 22.
+        <p>Excelente golpeador, o tamarutaca "soca" suas presas com suas garras com uma força de até <strong>2,5 mil vezes</strong> seu peso em menos de 800 microsegundos. Este nocaute equivale a um tiro de pistola calibre 22.
         </p>
         <img class="imagem" src="https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1555299571/shape/mentalfloss/prim_3_0.jpg" alt="Foto do Stomatopoda mostrando seus dois apêndices frontais">
       </section>
       <section>
         <h2>Super visão</h2>
-        <p>Como se não bastasse, estes crustáceos apresentam a melhor visão em cores do mundo. Possuindo 08 fotorreceptores para distinção de cores (humanos possuem 03), <em>conseguem detectar ondas ultravioleta</em> e milhares de gradações (até 16 cores primárias). Com um mecanismo de polarização visual complexo e visão em 360 graus, são capazes de determinar profundidade e localização de objetos em três ângulos. Este fenômeno inspira pesquisadores para o desenvolvimento e aprimoramento de recursos fotográficos e audiovisuais como os DVDs.
+        <p>Como se não bastasse, estes crustáceos apresentam a melhor visão em cores do mundo. Possuindo 08 fotorreceptores para distinção de cores (humanos possuem 03), <strong>conseguem detectar ondas ultravioleta</strong> e milhares de gradações (até 16 cores primárias). Com um mecanismo de polarização visual complexo e visão em 360 graus, são capazes de determinar profundidade e localização de objetos em três ângulos. Este fenômeno inspira pesquisadores para o desenvolvimento e aprimoramento de recursos fotográficos e audiovisuais como os DVDs.
         Por possuírem estas habilidades, estes indivíduos tornam-se um dos organismos mais incríveis do planeta.
         <p>
         <img class="imagem" src="https://animalogic.ca/wp-content/uploads/2015/12/KBSHOGUN_S004_S001_T095.MOV_snapshot_00.40_2015.12.03_22.45.36.jpg" alt="Foto mostrando os olhos do Stomatopoda">
@@ -89,23 +95,23 @@ html- semântico - https://www.devmedia.com.br/html-semantico-conheca-os-element
       <h3>Referências</h3>
       <ul>
         <li>
-          <a href="https://br.figgysfoodtruck.com/2076-mantis-shrimp-facts-stomatopoda.html" target="_blank">
-          Wikipedia
+          <a id="wikipedia" href="https://br.figgysfoodtruck.com/2076-mantis-shrimp-facts-stomatopoda.html" target="_blank">
+          Wikipedia (abre nova janela)
           </a>
         </li>
         <li>
-          <a href="https://br.figgysfoodtruck.com/2076-mantis-shrimp-facts-stomatopoda.html" target="_blank">
-          Piggy</a>
+          <a id="piggy" href="https://br.figgysfoodtruck.com/2076-mantis-shrimp-facts-stomatopoda.html" target="_blank">
+          Piggy (abre nova janela)</a>
         </li>
       </ul>
     </section>
     <aside>
-      <p>Saiba mais<a href="https://www.youtube.com/watch?v=E0Li1k5hGBE" target="_blank"> aqui.
-      </a>
+      <p>Saiba mais <a id="youtube" href="https://www.youtube.com/watch?v=E0Li1k5hGBE" target="_blank"> aqui (abre nova janela)
+      </a>.
       </p>
     </aside>
     <footer>
-      <p>Conteúdo compilado por Lucas Lima, 2021</p>
+      <p id="sobre" >Conteúdo compilado por <a href="https://www.linkedin.com/in/lucas-roberto-490699174/" id='contato'>Lucas Lima (abre nova janela)</a>, 2021</p>
     </footer>
   </body>
   </html>

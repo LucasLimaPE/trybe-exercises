@@ -1,10 +1,13 @@
-table{
+table {
     border: 1px solid black;
     border-collapse: collapse;
 }
-tr td{
-    border: 1px black;
+td {
+    border: 1px solid black;
 }
 .imagem {
     height: 200px;
+}
+ul{
+    list-style: none;
 }
