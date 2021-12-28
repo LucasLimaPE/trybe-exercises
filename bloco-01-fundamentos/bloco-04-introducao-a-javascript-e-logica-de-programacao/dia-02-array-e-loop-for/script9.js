@@ -1,9 +1,11 @@
-let numeros = [];
+//Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2 .
+
+let numbers = [];
 
 for (let i = 1; i <= 25; i += 1) {
-  numeros.push(i);
+  numbers.push(i);
 }
 
-for (let i = 0; i < numeros.length; i += 1) {
-    console.log(numeros[i] / 2);
+for (let i = 0; i < numbers.length; i += 1) {
+    console.log(numbers[i] / 2);
   };
