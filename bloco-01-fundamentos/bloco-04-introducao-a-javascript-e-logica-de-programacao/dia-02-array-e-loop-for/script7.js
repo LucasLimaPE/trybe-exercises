@@ -1,5 +1,10 @@
 //Utilizando for , descubra qual o menor valor contido no array e imprima-o.
 
+//Algoritmo:
+// 1 - Usar mesmo código anterior;
+// 2 - Trocar o nome da variável maiorNumero por menorNumero em todas as auas ocorrências;
+// 3 - Trocar sinal na comparação entre o número percorrido no for (numbers[i]) e o valor da variável menorNúmero para menor que '<';
+
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 let menorNumero = numbers[0];
