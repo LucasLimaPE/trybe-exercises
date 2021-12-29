@@ -1,5 +1,7 @@
 // 2- Agora, desenvolva um algoritmo que é capaz de inverter uma palavra. Por exemplo, a palavra "banana" seria invertida para "ananab". Utilize a string abaixo como exemplo, depois troque por outras para verificar se seu algoritmo está funcionando corretamente.
 
+//let word = 'tryber';
+
 //Algoritmo:
 // 1 - Usa-se a variável determinada no enunciado;
 // 2 - Declara-se a variável que irá conter o valor da ṕrimeira variável e adicionar os métodos que irão fazer a string ser revertida;
