@@ -1,5 +1,9 @@
 //Ordene o array numbers em ordem decrescente e imprima seus valores;
 
+//Algoritmo:
+// 1 - Utiliza o código feito no exercício anterior;
+// 2 - Muda a comparação feita dentro da estrutura condicional, onde irá ter como condição para que ocorra o bloco de código numbers[index] sendo maior que numbers[secondIndex].
+
 /*Este código foi desenvolvido por Lucas Lima com auxílio do colega Guilherme Azevedo. Comparado com o código do gabarito e adicionado de alterações a partir dele. */
 
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
