@@ -1,6 +1,8 @@
 // Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false .
 // Bonus: use somente um if .
 
+/*Este código foi desenvolvido por Lucas Lima com auxílio do colega Guilherme Azevedo. Comparado com o código do gabarito e adicionado de alterações a partir dele. */
+
 const a = 15;
 const b = 8;
 const c = 1987;

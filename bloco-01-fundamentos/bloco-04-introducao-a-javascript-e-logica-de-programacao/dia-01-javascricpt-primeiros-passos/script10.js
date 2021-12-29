@@ -6,6 +6,8 @@
 // lucro = valorVenda - valorCustoTotal (lucro de um produto)
 //Feito com consulta ao gabarito.
 
+/*Este código foi desenvolvido por Lucas Lima com auxílio do colega Guilherme Azevedo. Comparado com o código do gabarito e adicionado de alterações a partir dele. */
+
 const custoProduto = 10;
 const valorVenda = 40;
 

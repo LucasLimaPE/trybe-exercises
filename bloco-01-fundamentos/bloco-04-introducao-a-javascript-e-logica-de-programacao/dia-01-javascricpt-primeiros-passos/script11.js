@@ -13,6 +13,8 @@
 // Acima de R$ 4.664,68: alíquota de 27,5% e parcela de R$ 869,36 a deduzir do imposto.
 //Feito com consulta no course.
 
+/*Este código foi desenvolvido por Lucas Lima com auxílio do colega Guilherme Azevedo. Comparado com o código do gabarito e adicionado de alterações a partir dele. */
+
 let descontoInss;
 let impostoDeRenda;
 

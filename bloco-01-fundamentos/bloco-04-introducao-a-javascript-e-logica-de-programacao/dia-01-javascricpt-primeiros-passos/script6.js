@@ -3,7 +3,8 @@
 // Como dica, você pode pesquisar uma função que faz uma string ficar com todas as letras minúsculas (lower case) .
 // Se a peça passada for inválida, o programa deve retornar uma mensagem de erro.
 // Exemplo: bishop (bispo) -> diagonals (diagonais)
-//Referenciada no gabarito do couse.
+
+/*Este código foi desenvolvido por Lucas Lima com auxílio do colega Guilherme Azevedo. Comparado com o código do gabarito e adicionado de alterações a partir dele. */
 
 const nomePeca = 'bispo';
 
