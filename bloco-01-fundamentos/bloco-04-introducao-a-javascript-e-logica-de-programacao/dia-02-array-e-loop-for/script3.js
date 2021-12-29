@@ -7,6 +7,9 @@
         //Percorrerá todas as posições do array somando o valor de cada uma à variável declarada anteriormente;
 // 4 - Declarar uma variável que contenha o valor da média aritmática que é igual ao valor da variável total dividido pelo tamanho do array;
 // 5 - Usar console.log() para imprimir o valor na tela da variável do passo anterior.
+
+/*Este código foi desenvolvido por Lucas Lima com auxílio do colega Guilherme Azevedo. Comparado com o código do gabarito e adicionado de alterações a partir dele. */
+
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 let total = 0;

@@ -8,6 +8,8 @@
         //A cada posição percorrida o valor da posição será adicionado à variável declarada anteriormente.
         //Usar console.log para imprimir o valor total somado no loop na tela.
 
+/*Este código foi desenvolvido por Lucas Lima com auxílio do colega Guilherme Azevedo. Comparado com o código do gabarito e adicionado de alterações a partir dele. */
+
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 let total = 0;

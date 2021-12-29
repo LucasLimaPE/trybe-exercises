@@ -1,5 +1,7 @@
 //Ordene o array numbers em ordem decrescente e imprima seus valores;
 
+/*Este código foi desenvolvido por Lucas Lima com auxílio do colega Guilherme Azevedo. Comparado com o código do gabarito e adicionado de alterações a partir dele. */
+
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 for (let index = 1; index < numbers.length; index += 1) {

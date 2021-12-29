@@ -8,6 +8,8 @@
         //Dentro da estrutura de repetição existirá uma estrutura condicional que irá comparar se o número da posição atual do for (numbers[i]) é maior que o número declarado na variável do passo 2 (maiorValor), se for, a variável do passo dois assumirá o valor da posição percorrida no for(numbers[i]).
 // 4 - Usar console.log() para imprimir na tela o valor da variável maiorValor.
 
+/*Este código foi desenvolvido por Lucas Lima com auxílio do colega Guilherme Azevedo. Comparado com o código do gabarito e adicionado de alterações a partir dele. */
+
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 let maiorValor = numbers[0];

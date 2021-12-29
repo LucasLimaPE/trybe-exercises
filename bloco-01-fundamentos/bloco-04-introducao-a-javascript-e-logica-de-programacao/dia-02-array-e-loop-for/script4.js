@@ -5,6 +5,9 @@
 // 2 - Retirar console anterior;
 // 3 - Criar estrutura condicional (if/else) que:
         //Irá comparar se o valor da variável média aritmética é maior que 20, se for, usar console.log() para imprimira mensagem indicando isso, se não, indicar que o valor é menor ou igual a 20.
+
+/*Este código foi desenvolvido por Lucas Lima com auxílio do colega Guilherme Azevedo. Comparado com o código do gabarito e adicionado de alterações a partir dele. */
+
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 let total = 0;

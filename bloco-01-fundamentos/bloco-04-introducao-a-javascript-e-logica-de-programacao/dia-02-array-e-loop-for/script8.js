@@ -6,6 +6,8 @@
 // 3 - Declarar dentro do bloco de código que a cada loop será adicionado (.push) ao array o número referênte a posição percorrida ([i]);
 // 4 - Usar console.log() para imprimir o valores do array na tela. 
 
+/*Este código foi desenvolvido por Lucas Lima com auxílio do colega Guilherme Azevedo. Comparado com o código do gabarito e adicionado de alterações a partir dele. */
+
 let numbers = [];
 
 for (let i = 1; i <= 25; i += 1) {
