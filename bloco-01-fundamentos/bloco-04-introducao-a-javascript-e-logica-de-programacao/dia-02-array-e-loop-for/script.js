@@ -1,11 +1,13 @@
-// 1 - Nesse primeiro exercício, percorra o array imprimindo todos os valores nele contidos com a função console.log().
 
-//Alogoritmo:
-// 1 - Adicionar o array; 
-// 2 - Criar loop for para percorrer cada posição do array;
-// 3 - Adicionar console.log() para imprimir cada posição percorrida (numbers[i])
 
 /*Este código foi desenvolvido por Lucas Lima com auxílio do colega Guilherme Azevedo. Comparado com o código do gabarito e adicionado de alterações a partir dele. */
+=======
+//1 - Nesse primeiro exercício, percorra o array imprimindo todos os valores nele contidos com a função console.log();
+
+//Alogoritimo:
+// 1 - Adicionar o array; 
+// 2 - Criar loop for para percorrer cada posição do array;
+// 3 - Adicionar console.log() para imprimir cada posição percorrida (numbers[i]).
 
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
