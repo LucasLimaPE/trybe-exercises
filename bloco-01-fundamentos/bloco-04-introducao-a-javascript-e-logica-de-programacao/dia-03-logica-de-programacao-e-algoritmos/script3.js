@@ -12,7 +12,6 @@
 // 8 - Mudar o sinal da condicional para ('>'), fazendo com que agora se (array[i]) for maior que o valor contido em maiorPalavra (array[0]), maiorPalavra assumirá o seu valor;
 // 9 - Usar console.log() para imprimir os valores em menorPalavra e maiorPalavra. 
 
-
 /* De início coloquei o i (index) sem determinar que estava comparando o tamanho (.lenght), para o primeiro funcionou mas para o segundo não, então pesquisei em:
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/length
 Após isso comparei o meu código com o do gabarito presente no course e percebi que o que estava errado era que faltava determinar a comparação do tamanho dentro da estrutura condicional.
