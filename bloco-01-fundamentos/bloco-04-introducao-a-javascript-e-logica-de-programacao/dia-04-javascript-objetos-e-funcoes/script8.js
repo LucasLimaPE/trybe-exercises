@@ -3,7 +3,7 @@
 //Algoritmo:
 // 1 - Usa-se o mesmo objeto dos ecercícios anteriores;
 // 2 - Usa-se console.log() para imprimir a concatenação entre a frase e as informações dentro do objeto;
-// 3 - Atenta-se que por livrosFavoritos se tratar de uma string pode-se acessar o comprimento da chave.
+// 3 - Atenta-se que por livrosFavoritos se tratar de um array pode-se acessar o comprimento da chave.
 
 let leitor = {
     nome: 'Julia',
