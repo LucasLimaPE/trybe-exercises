@@ -1,3 +1,7 @@
+
+
+/*Este código foi desenvolvido por Lucas Lima com auxílio do colega Guilherme Azevedo. Comparado com o código do gabarito e adicionado de alterações a partir dele. */
+=======
 //1 - Nesse primeiro exercício, percorra o array imprimindo todos os valores nele contidos com a função console.log();
 
 //Alogoritimo:
