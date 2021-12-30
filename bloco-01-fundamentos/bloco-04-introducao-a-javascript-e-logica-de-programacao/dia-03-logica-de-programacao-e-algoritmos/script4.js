@@ -1,15 +1,12 @@
 // 4- Um número primo é aquele divisível apenas por 1 e por ele mesmo. Sabendo disso, escreva um algoritmo que retorne o maior número primo entre 0 e 50.
 
 //Algoritmo:
-// 1 - Declara-se uma variável com o valor inicial zero;
-// 2 - Declara-se um for que vai de 0 a 50 e será acrescentado de 1 a cada loop, sendo responsável por gerar o dividendo;
-// 3 - Declara-se uma variável isPrime que inicialmente terá seu valor como true, que servirá para que biggesNumber assuma seu valor, este valor só mudará quando um novo número primo for detectado; 
-// 4 - Declara-se um for dentro do for criado anteriormente, que irá percorrer de 2 até que ele seja menor que o valor do primeiro for (dividendo), acrescentando um a cada loop;
-// 5 - Declara-se dentro do bloco de código do segundo for uma estrutura condicional (if/else), que irá comparar se o dividendo (primeiro for), durante o loop foi divisível por algum dos números percorridos no segundo for (divisor), se isso acontecer, isPrime assumirá o valor false;
-// 6 - Atenta-se que biggestNumber como está acontecendo dentro do primeiro bloco de código só mudará o valor de biggestNumber na próxima ocorrência de um número primo, visto que o if que faz isso acontecer está dentro do bloco primeiro bloco de código (primeiro for), caso o valor atual de isPrime seja false nada ocorrerá com biggestNumber.
-// 7 - Usa-se console.log() para imprimir o valor de biggestPrimeNumber;
+// 1 - Declara-se uma variável com o valor inicial zero (letbiggestNumber = 0);
+// 2 - Declara-se um for que vai de 0 a 50 e será acrescentado de 1 a cada loop, sendo responsável por gerar o dividendo e abir o primeiro bloco de código (for (let currentNumber = 0; currentNumber <= 50; currentNumber += 1) {};
+// 3 - Declara-se uma variável isPrime que, dentro do primeiro bloco de código que, inicialmente, terá seu valor como true, que servirá para que biggesNumber assuma seu valor (inicialmente 0),e será acrescentado de um, até quando quando no segundo for currentNumber for maior que currentDivisor {for (let currentDivisor = 2; currentDivisor < currentNumber; currentDivisor += 1), abrindo o segundo bloco de código que contém o código responsável por comparar se o número atual do primeiro for é divisível por algum número iniciando de 2 até que, no segundo for, o valor seja igual a ele, se isso acontecer, isPrime assumirá o valor false, o valor de biggestPrimeNumber não muda, pois o último número em que o segundo bloco de código foi aberto é referente ao último número primo entre 0 e 50 (); 
 
-/* Este código foi retirado do gabarito, inicalmente tentei colocar um for dentro do for e comparar todas as condições dentro de apenas um if, o que não deu certo visto que existia a necessidade de comparar o número atual percorrido por todos os seus antecessores, ao ver o código no gabarito entendi que por isso é determinado dentro do primeiro bloco a condição bolean e dentro do segundo for a repetição será até que o divisor seja menor que o valor do dividendo atual, se o divisor for divisível por algum valor entre 2 e ele mesmo caracteriza que ele não é primo, tendo em vista que o número só é primo se ele for dividido apenas por 1 ou por ele mesmo.
+// 4 - Atenta-se que:
+        //O principal elemento para funcionamento deste código é o uso dos booleans, tendo em vista que por ter sido declarado como verdadeiro dentro do primeiro bloco de código e dentro do mesmo bloco de código fora do segundo for foi declarado uma condicional que diz que se is prime acontece (isPrime assumir o valor verdadeiro dentro do segundo for) o valor atual percorrido no primeiro for se tornará o valor de biggest number; 
 
 //Pesquisas feitas nos sites:
 
@@ -27,15 +24,16 @@ https://app.betrybe.com/course
 let biggestPrimeNumber = 0;
 
 for (let currentNumber = 0; currentNumber <= 50; currentNumber += 1) {
-  let isPrime = true;
-  for (let currentDivisor = 2; currentDivisor < currentNumber; currentDivisor += 1) {
-    if (currentNumber % currentDivisor === 0) {
-      isPrime = false;
+        let isPrime = true;
+            for (let currentDivisor = 2; currentDivisor < currentNumber; currentDivisor += 1) {
+                if (currentNumber % currentDivisor === 0) {
+                    isPrime = false;
+                    }
+            }
+        
+if (isPrime) {
+    biggestPrimeNumber = currentNumber;
     }
-  }
-  if (isPrime) {
-biggestPrimeNumber = currentNumber;
-  }
 }
 
 console.log(biggestPrimeNumber);
