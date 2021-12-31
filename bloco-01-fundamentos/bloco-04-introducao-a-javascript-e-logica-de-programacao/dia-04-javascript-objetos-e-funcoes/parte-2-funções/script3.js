@@ -6,7 +6,7 @@
 // 1 - Utiliza-se o mesmo código do exercício anterior, apenas mudando o nome da variável maiorIndice para menorIndice.
 // 2 - Muda-se o sinal de comparação dentro do if de (<) para (>), fazendo com que agora seja procurado o menor valor, se for encontrado, menorIndice assumirá o valor da sua posição.
 
-function indiceDoMenorValor(array) {
+function buscaMaiorNome(array) {
     let menorIndice = 0;
     for (let i in array) {
         if (array[menorIndice] > array[i]) {
@@ -18,4 +18,4 @@ return menorIndice;
 
 let arrayDeTeste = [6, 4, 0, 7, 10]; 
 
-console.log(indiceDoMenorValor(arrayDeTeste));
+console.log(buscaMaiorNome(arrayDeTeste));
