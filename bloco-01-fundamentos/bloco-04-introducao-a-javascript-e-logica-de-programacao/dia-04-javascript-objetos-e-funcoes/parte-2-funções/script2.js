@@ -4,10 +4,11 @@
 
 //Algoritmo:
 // 1 - Declara-se uma função que recebe como parẫmetro um array, e é aberto o primeiro bloco de código;
-// 2 - Como será feita uma comparação, no caso entre índices, será declarado um valor inicial 0, para que percorra do início ao final da lista.
+// 2 - Declara-se uma variável que irá conter o valor 0.
 // 3 - Declara-se um for/in para percorrer todas as posições do array, e abre-se o segundo bloco de código;
-// 4 - Declara-se uma estrutura condicional que compara se o valor da primeira posição do array (array[maiorIndice]) é maior que o valor da posição percorrida dentro do for/in, se isso acontecer, abrir-se-á o terceiro bloco de código, onde a variável maiorIndice assumirá o valor da posição atual percorrida no for in. fecha-se o segundo e o terceiro bloco.
-// 5 - Ainda dentro do primeiro bloco de código, com a inteção de que aconteça a comparação primeiro entre todos os valores do array antes de acontecer o retorno, declara-se que o return desta função será o valor da variável maiorIndice, ou seja, a posição do maior valor. 
+// 4 - Declara-se uma estrutura condicional que compara se o valor da primeira posição do array (array[maiorIndice]) é menor que o valor da posição percorrida dentro do for/in, buscando assim o maior valor, se isso acontecer, abrir-se-á o terceiro bloco de código, onde a variável maiorIndice assumirá o valor da posição atual percorrida, onde houve a ocorrência de um número maior. fecha-se o segundo e o terceito;
+// *** Atenta-se que aqui a variável irá assumir o índice do valor e não o valor do índice. 
+// 5 - Ainda dentro do primeiro bloco de código, com a intenção de que aconteça a comparação primeiro entre todos os valores do array antes de acontecer o retorno, declara-se que o return desta função será o valor da variável maiorIndice, ou seja, a posição do maior valor. 
 
 /*
 Pesquisas feitas nos sites:
@@ -26,7 +27,7 @@ function indiceDoMaiorValor(array) {
         }
     }
 return maiorIndice;
-};
+}
 
 let arrayDeTeste = [2, 3, 200, 7, 10, 1];
 

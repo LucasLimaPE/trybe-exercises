@@ -24,7 +24,7 @@ https://www.w3schools.com/js/default.asp
 https://www.w3schools.com/jsref/jsref_tolowercase.asp#:~:text=Definition%20and%20Usage,not%20change%20the%20original%20string.
 
 */
-function indiceDoMaiorValor(string) {
+function indiceDoMenorValor(string) {
      let stringReverse = string.toLowerCase().split('').reverse('').join('');
      if (stringReverse === string.toLowerCase()) {
          return true;
@@ -33,5 +33,5 @@ function indiceDoMaiorValor(string) {
      }
 }
 
-console.log(indiceDoMaiorValor('AnilinA'));
+console.log(indiceDoMenorValor('AnilinA'));
 
