@@ -19,4 +19,12 @@ function changeText () {
 
 changeText();
 
-  
+const takeSquare = document.getElementsByClassName("main-content");
+
+function changeColorYellowSquare () {
+    takeSquare[0].style.backgroundColor = "rgb(76,164,109)";
+};
+
+
+
+
