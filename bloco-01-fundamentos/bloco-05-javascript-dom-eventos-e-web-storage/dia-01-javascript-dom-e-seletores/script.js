@@ -11,7 +11,10 @@ Aqui você vai modificar os elementos já existentes utilizando apenas as funç�
  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
 */
 
-const takeText = document.getElementsByTagName("p");
+const takeText = document.getElementsByTagName('p');
+const takeSquare = document.getElementsByClassName("main-content");
+const takeRedSquare = document.getElementsByClassName("center-content");
+const takeTitle = document.getElementsByClassName('title');
 
 function changeText () {
     takeText[1].innerHTML = "Alcançando meus objetivos e trabalhando em uma empresa bolada!";
@@ -19,23 +22,17 @@ function changeText () {
 
 changeText();
 
-const takeSquare = document.getElementsByClassName("main-content");
-
 function changeColorYellowSquare () {
     takeSquare[0].style.backgroundColor = "rgb(76,164,109)";
 }
 
 changeColorYellowSquare();
 
-const takeRedSquare = document.getElementsByClassName("center-content");
-
 function changeColorRedSquare() {  
     takeRedSquare[0].style.backgroundColor = "white";
 }
 
 changeColorRedSquare();
-
-const takeTitle = document.getElementsByClassName('title');
 
 function fixText () {
     takeTitle[0].innerText = "Exercício 5.1 - JavaScript";
@@ -51,6 +48,14 @@ function pToUpperCase () {
 
 pToUpperCase();
 
+function showTagP () {
+    let paragraphs = document.getElementsByTagName('p');
+    for (let index = 0; index < paragraphs.length; index += 1) {
+        console.log(paragraphs[index].innerHTML);
+    }
+}
+
+showTagP();
 
 
 
