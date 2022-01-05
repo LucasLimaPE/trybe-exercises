@@ -43,6 +43,14 @@ function fixText () {
 
 fixText();
 
+/*Referenciado no gabarito*/
+function pToUpperCase () {
+  let paragraph = document.getElementsByTagName('p')[0];
+  paragraph.innerHTML = paragraph.innerHTML.toUpperCase();
+}
+
+pToUpperCase();
+
 
 
 
