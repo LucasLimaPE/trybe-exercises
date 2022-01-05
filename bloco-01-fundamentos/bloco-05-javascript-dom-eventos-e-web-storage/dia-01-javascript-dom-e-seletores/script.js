@@ -25,6 +25,17 @@ function changeColorYellowSquare () {
     takeSquare[0].style.backgroundColor = "rgb(76,164,109)";
 };
 
+changeColorYellowSquare();
+
+const takeRedSquare = document.getElementsByClassName("center-content");
+
+function changeColorRedSquare() {  
+    takeRedSquare[0].style.backgroundColor = "white";
+}
+
+changeColorRedSquare();
+
+
 
 
 
