@@ -15,7 +15,7 @@ const takeText = document.getElementsByTagName("p");
 
 function changeText () {
     takeText[1].innerHTML = "Alcançando meus objetivos e trabalhando em uma empresa bolada!";
-};
+}
 
 changeText();
 
@@ -23,7 +23,7 @@ const takeSquare = document.getElementsByClassName("main-content");
 
 function changeColorYellowSquare () {
     takeSquare[0].style.backgroundColor = "rgb(76,164,109)";
-};
+}
 
 changeColorYellowSquare();
 
@@ -34,6 +34,16 @@ function changeColorRedSquare() {
 }
 
 changeColorRedSquare();
+
+const takeTitle = document.getElementsByClassName('title');
+
+function fixText () {
+    takeTitle[0].innerText = "Exercício 5.1 - JavaScript";
+}
+
+fixText();
+
+
 
 
 
