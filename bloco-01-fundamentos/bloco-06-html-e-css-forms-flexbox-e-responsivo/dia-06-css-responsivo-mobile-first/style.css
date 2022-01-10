@@ -47,3 +47,18 @@ figure {
 figcaption {
   font-size: .8em;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: gainsboro;
+    font-size: 40px;
+    margin: 2em;
+  }
+  
+  figure{
+    width: 40%;
+    display:inline-flex;
+    padding: 30px;
+  }
+  
+}
