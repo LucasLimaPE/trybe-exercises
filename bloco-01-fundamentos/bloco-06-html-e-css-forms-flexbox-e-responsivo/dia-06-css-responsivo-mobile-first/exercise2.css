@@ -31,6 +31,7 @@ html {
           font-size: xx-large;
           margin: 10px 30px 10px 30px;
           padding: 10px;
+          background-color: darkgrey;
       }
       p {
           font-size: xx-large;
@@ -51,9 +52,45 @@ html {
       h2 {
           font-size: 35px;
       }
+      footer h3 {
+          text-align: center;
+      }
+      footer p {
+          text-align: center;
+      }
       
   }
 
   @media screen and (min-width: 1000px) {
-      
+    body {
+        font-size: 25px;
+        margin: 10px 20px 10px 20px;
+        background-color: honeydew;
+    }   
+    header p {
+            font-size: 50px;
+            text-align: center;
+            font-weight: bold;
+        }
+        p {
+            font-size: 25px;
+            margin: 10px 20px 10px 20px;
+            text-align: justify;
+        }
+        h2 {
+            font-size: 35px;
+        }
+        h3 {
+            font-size: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 40px;
+            text-align: center;
+            margin: 10px 20px 10px 20px;
+            padding: 20px;
+        }
+        footer p {
+            text-align: center;
+        }
   }
