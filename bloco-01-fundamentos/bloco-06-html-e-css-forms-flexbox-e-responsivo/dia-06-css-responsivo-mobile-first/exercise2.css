@@ -5,3 +5,31 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+
+  @media screen and (max-width: 600px) {
+      body {
+          background-color: azure;
+          font-size: x-large;
+          margin: 5px 20px 5px 20px;
+      }
+      p {
+          text-align: justify;
+      }
+      h1 {
+          font-size: 30px;
+          text-align: center;
+          margin: 10px 20px 10px 20px;
+      }
+      h2 {
+          font-size: 25px;
+      }
+      
+  }
+
+  @media screen and (min-width: 600px) {
+      
+  }
+
+  @media screen and (min-width: 1000px) {
+      
+  }
