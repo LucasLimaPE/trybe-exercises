@@ -62,3 +62,18 @@ figcaption {
   }
   
 }
+
+@media screen and (min-width: 1300px) {
+  body {
+    background-color: grey;
+    font-size: 35px;
+    margin: 20px 1em 10px 2em;
+    max-width: 1400px;
+  }
+ figure {
+   max-width: 100%;
+   height: auto;
+   display: flex;
+   flex-grow: 1;
+ } 
+}
