@@ -19,6 +19,8 @@
 
  const takeH1 = document.getElementsByClassName("title");
 
+ const takeP = document.getElementsByTagName("p");
+
 
  function changeParagaph() {
        paragraphs[1].innerHTML = " Com um vasto conhecimento em tecnologia, trabalhando numa empresa maneira e realizando meus sonhos.";
@@ -43,3 +45,9 @@ function changeText () {
 }
 
 changeText ();
+
+function pToUpperCase () {
+       takeP[0].innerHTML = takeP[0].innerHTML.toUpperCase();
+}
+
+pToUpperCase();
