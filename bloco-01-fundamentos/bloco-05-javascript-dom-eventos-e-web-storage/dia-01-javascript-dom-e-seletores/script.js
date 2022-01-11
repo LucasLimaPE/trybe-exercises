@@ -12,11 +12,17 @@
   */
 
  const paragraphs = document.querySelectorAll("p");
+ const yellowSquare = document.getElementsByClassName("main-content");
 
  function changeParagaph() {
        paragraphs[1].innerHTML = " Com um vasto conhecimento em tecnologia, trabalhando numa empresa maneira e realizando meus sonhos.";
  }
 
 changeParagaph();
- 
+
+function changeSquareColor () {
+       yellowSquare[0].style.background = "rgb(76,164,109";
+}
+
+changeSquareColor();
 
