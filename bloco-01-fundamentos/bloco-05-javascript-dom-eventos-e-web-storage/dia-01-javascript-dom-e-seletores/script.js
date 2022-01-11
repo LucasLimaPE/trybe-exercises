@@ -13,6 +13,8 @@
 
  const paragraphs = document.querySelectorAll("p");
  const yellowSquare = document.getElementsByClassName("main-content");
+ const redSquare = document.getElementsByClassName("center-content");
+
 
  function changeParagaph() {
        paragraphs[1].innerHTML = " Com um vasto conhecimento em tecnologia, trabalhando numa empresa maneira e realizando meus sonhos.";
@@ -26,3 +28,8 @@ function changeSquareColor () {
 
 changeSquareColor();
 
+function changeRedSquare () {
+       redSquare[0].style.background = "white";
+}
+
+changeRedSquare();
