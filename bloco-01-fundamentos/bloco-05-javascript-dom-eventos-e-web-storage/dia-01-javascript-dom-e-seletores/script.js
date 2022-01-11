@@ -12,8 +12,12 @@
   */
 
  const paragraphs = document.querySelectorAll("p");
+
  const yellowSquare = document.getElementsByClassName("main-content");
+
  const redSquare = document.getElementsByClassName("center-content");
+
+ const takeH1 = document.getElementsByClassName("title");
 
 
  function changeParagaph() {
@@ -33,3 +37,9 @@ function changeRedSquare () {
 }
 
 changeRedSquare();
+
+function changeText () {
+       takeH1[0].innerText = "Exercício 5.1 - JavaScript";
+}
+
+changeText ();
