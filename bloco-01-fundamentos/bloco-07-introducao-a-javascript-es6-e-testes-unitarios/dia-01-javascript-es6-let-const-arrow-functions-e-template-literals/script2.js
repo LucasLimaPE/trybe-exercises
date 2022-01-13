@@ -10,29 +10,29 @@ Para resolução deste exercício utilizei um código feito em um exercício ant
 Recebi ajuda do colega Guilherme Azevedo para desbugar parte deste código, ele me ajudou a desbugar a parte do return e eu o ajudei a fazer a concatenação.
 */
 
-// const oddsAndEvens = [13, 3, 4, 10, 7, 2];
+const oddsAndEvens = [13, 3, 4, 10, 7, 2];
 
-// const ordemCrescente = (array) => {
-// for (let index = 1; index < array.length; index += 1) {
-//     for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
-//       if (array[index] < array[secondIndex]) {
-//         let position = array[index];
-//         array[index] = array[secondIndex];
-//         array[secondIndex] = position;
-//       }
-//     }
-//   }
-//   return array;
-// }
+const ordemCrescente = (array) => {
+for (let index = 1; index < array.length; index += 1) {
+    for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
+      if (array[index] < array[secondIndex]) {
+        let position = array[index];
+        array[index] = array[secondIndex];
+        array[secondIndex] = position;
+      }
+    }
+  }
+  return array;
+}
 
 // const executaFuncao = (ordemCrescente(oddsAndEvens));
 
 // console.log(`Os números ${executaFuncao} se encontram ordenados de forma crescente!`);
 
-const oddsAndEvens = [13, 3, 4, 10, 7, 2];
+// const oddsAndEvens = [13, 3, 4, 10, 7, 2];
 
-const ordemCrescenteSort = (array) => {
-    const arraySort = array.split(', ').sort();
-    return arraySort;
-}
- console.log(ordemCrescenteSort(oddsAndEvens));
+// const ordemCrescenteSort = (array) => {
+//     const arraySort = array.split(', ').sort();
+//     return arraySort;
+// }
+//  console.log(ordemCrescenteSort(oddsAndEvens));
