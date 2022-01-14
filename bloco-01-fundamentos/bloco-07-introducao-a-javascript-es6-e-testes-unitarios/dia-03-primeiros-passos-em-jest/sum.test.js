@@ -11,3 +11,9 @@ describe ('Requisito 2', () => {
         expect(0).toEqual(sum(0, 0));
     });  
   });
+
+describe ('Requisito 3', () => {
+    test('Testa se a função lança um erro quando os parâmtro são (4, "5")', () => {
+        expect(() => { sum (4, "5") }).toThrow();
+    });  
+  });
