@@ -17,3 +17,9 @@ describe ('Requisito 3', () => {
         expect("buzz").toEqual(myFizzBuzz(10));
     });  
   });
+
+describe ('Requisito 4', () => {
+    it('Verifica se a chamada myFizzBuzz(11) retorna (11)', () => {
+        expect(11).toEqual(myFizzBuzz(11));
+    });  
+  });
