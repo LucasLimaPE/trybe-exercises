@@ -7,7 +7,6 @@ Nota:
 
 Para resolução deste exercício utilizei um código feito em um exercício anterior que é responsável por ordenar os números dentro de um array em forma crescente, a intenção de utilizar este código foi fazer com que esta função funcionasse para qualquer array dado como parâmetro.
 
-Recebi ajuda do colega Guilherme Azevedo para desbugar parte deste código.
 */
 
 const oddsAndEvens = [13, 3, 4, 10, 7, 2];
@@ -24,5 +23,7 @@ for (let index = 1; index < array.length; index += 1) {
   }
   return array;
 }
-console.log(ordemCrescente(oddsAndEvens));
+const arrayOrdenado = ordemCrescente(oddsAndEvens);
+
+console.log(`Os números ${arrayOrdenado} se encontram ordenados de forma crescente!`);
 
