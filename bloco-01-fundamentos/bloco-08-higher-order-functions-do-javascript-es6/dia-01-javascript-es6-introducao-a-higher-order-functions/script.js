@@ -20,7 +20,7 @@ const newEmployees = (callback) => {
     return employees;
   };
 
-  console.log(newEmployees(createObject));
+  console.log(newEmployees(createObject)); 
 
 
 
