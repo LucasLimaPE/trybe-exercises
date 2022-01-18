@@ -6,7 +6,7 @@ const createObject = (fullName) => {
     var nameForEmail = fullName.toLowerCase().split(' ').join('_');
     const personInformation = {
         nomeCompleto: fullName,  
-        email: `${nameForEmail}@trybe.com`                                   
+        email: `${nameForEmail}@trybe.com`                               
      }
      return personInformation;
 }
