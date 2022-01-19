@@ -28,23 +28,5 @@ const geradorDeNotas = (gabarito, respostas, callback) => {
     return `${callback(gabarito, respostas)}`;
 };
 
+
 console.log(geradorDeNotas(RIGHT_ANSWERS, STUDENT_ANSWERS, geradorDePontos));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-       
-
-console.log(geradorDePontos(RIGHT_ANSWERS, STUDENT_ANSWERS));
