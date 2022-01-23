@@ -65,6 +65,8 @@ const books = [
     },
   ];
   
-  function oldBooks() {
-  // escreva seu código aqui
+const oldBooks = (array) => {
+    return  array.filter((element) => `${2022 - element.releaseYear}` >= 60).map((element) => element.name);
 }
+
+console.log(oldBooks(books));
