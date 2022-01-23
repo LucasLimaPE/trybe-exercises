@@ -64,6 +64,8 @@ const books = [
   },
 ];
 
-function fantasyOrScienceFiction() {
-  // escreva seu código aqui
+const fantasyOrScienceFiction = (array) => {
+  return array.filter((element) => element.genre === 'Fantasia' || element.genre === 'Ficção Científica');
 }
+
+console.log(fantasyOrScienceFiction(books));
