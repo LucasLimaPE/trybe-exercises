@@ -64,6 +64,8 @@ const books = [
     },
   ];
   
-function authorWith3DotsOnName() {
-  // escreva seu código aqui
-}
+const authorWith3DotsOnName = (array) => {
+    return `${array.filter((element) => element.author.name[1] === '.' && element.author.name[4] === '.' && element.author.name[7] === '.').map((element) => element.name)}`;
+};
+
+console.log(authorWith3DotsOnName(books));
