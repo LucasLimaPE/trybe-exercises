@@ -65,6 +65,8 @@ const books = [
     },
   ];
   
-  function oldBooksOrdered() {
-  // escreva seu código aqui
+const oldBooksOrdered = (array) => {
+    return array.filter((element) => `${2022 - element.releaseYear}` >= 60).sort((elementA, elementB) => elementA.releaseYear - elementB.releaseYear)
 }
+
+console.log((oldBooksOrdered(books)));
