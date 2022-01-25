@@ -65,8 +65,11 @@ const books = [
     },
   ];
   
-const expectedResult = 43;
 
-function averageAge() {
-  // escreva seu código aqui
+const acessaIdade = (acc, curr,index, array) =>  {
+    return Math.round(acc + (curr.releaseYear - curr.author.birthYear) / array.length);
 }
+
+const averageAge = (array) => array.reduce(acessaIdade, 0);
+
+console.log(averageAge(books));
