@@ -66,7 +66,7 @@ const books = [
   ];
   
 
-const acessaIdade = (acc, curr,index, array) =>  {
+const acessaIdade = (acc, curr, index, array) =>  {
     return Math.round(acc + (curr.releaseYear - curr.author.birthYear) / array.length);
 }
 
