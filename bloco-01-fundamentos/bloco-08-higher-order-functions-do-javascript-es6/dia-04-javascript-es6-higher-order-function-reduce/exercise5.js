@@ -7,7 +7,24 @@ const names = [
     'Abegildo', 'Adicellia', 'Aladonata',
     'Abeladerco', 'Adieidy', 'Alarucha',
   ];
+  /*
+  Este exercício foi resolvido com base na documentação encontrada em:
+
+  https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+  */
   
-  function containsA() {
-    // escreva seu código aqui
-  }
+  const containsA = (array) => {
+      let separaLetras = array.join('').toLowerCase().split('')
+      let contaLetraA = separaLetras.reduce((todasLetras, letra) => {
+          if (letra in todasLetras) {
+              todasLetras[letra]++;
+          }
+          else {
+              todasLetras[letra] = 1;
+          }
+          return todasLetras;
+      }, {});
+      return contaLetraA.a;
+  };
+
+  console.log(containsA(names));
