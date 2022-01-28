@@ -65,7 +65,7 @@ const books = [
     },
   ];
 /*
-Este código foi feito com base no gabarito da questão presenten no course, estava meio confuso em entender como iria acessar a propriedade name dentro do array e retornar o objeto que contém ela. Fiz alterações no código para poder receber qualquer array que seja de objetos e contenha a chave names.
+Este código foi feito com base no gabarito da questão presente no course, estava meio confuso em entender como iria acessar a propriedade name dentro do array e retornar o objeto que contém ela. Fiz alterações no código para poder receber qualquer array que seja de objetos e contenha a chave name.
 
 Algoritmo explicativo:
 1 - Usa-se o array books;
