@@ -1,6 +1,6 @@
 # Exercícios - Bloco 08 - JavaScript ES6 - Higher Order Functions -
 
-## Exercícios - 8.2 - JavaScript ES6 - reduce -
+## Exercícios - 8.4 - JavaScript ES6 - reduce -
 
 1 - Dada uma matriz, transforme em um array;
 
