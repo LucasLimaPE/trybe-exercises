@@ -9,3 +9,11 @@ const yearSeasons = {
     autumn: ['September', 'October', 'November'],
     winter: ['December', 'January', 'February'],
   };
+
+const monthsOfTheYear = (object) => {
+    const { spring, summer, autumn, winter } = object;
+    const monthsYear = [...spring, ...summer, ...autumn, ...winter];
+    return monthsYear; 
+}
+
+console.log(monthsOfTheYear(yearSeasons));
