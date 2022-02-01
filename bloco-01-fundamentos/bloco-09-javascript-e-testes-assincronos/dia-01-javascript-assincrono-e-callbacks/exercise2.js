@@ -1,5 +1,6 @@
 /* 
 2 - Agora, dado o código abaixo, qual a ordem de finalização de execução das linhas comentadas?
+R -> Ordem assíncrona, A segue o fluxo comum, B acontecerá após 3 segundos e C após 2 segundos resultando na ordem: (A, C, B).
 */
 
 const planetDistanceFromSun = ({ name, distanceFromSun: { value, measurementUnit } }) =>
