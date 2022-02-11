@@ -56,6 +56,7 @@
     </style>
   </head>
   <body>
+      <!-- Parte deste código foi baseado no gabarito. -->
     <script>
       const createH1 = document.createElement('h1');
       createH1.innerText = 'Exercício 5.2 - JavaScript DOM';
@@ -98,7 +99,8 @@
       for (let index = 0; index < 3; index += 1) {
         takeH3[index].className = 'description';
       }
-
+      const takeLeftSection = document.getElementsByClassName('left-content')[0];
+      createMain.removeChild(takeLeftSection);
     </script>
   </body>
 </html>
