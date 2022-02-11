@@ -88,6 +88,11 @@
         createLi.innerHTML = arrayNumbers[num];
         createUl.appendChild(createLi);
       };
+      for (let index = 1; index <= 3; index += 1) {
+        const createH3 = document.createElement('h3');
+        createH3.innerHTML = 'Show ' + index;
+        createMain.appendChild(createH3);
+      };
       
     </script>
   </body>
