@@ -79,6 +79,16 @@
       const createImg = document.createElement('img');
       createImg.src = 'https://picsum.photos/200';
       createLeftSection.appendChild(createImg);
+      const createUl = document.createElement('ul');
+      createRightSection.appendChild(createUl);
+      const arrayNumbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis',
+        'Sete', 'Oito', 'Nove', 'Dez']
+      for (let num in arrayNumbers) {
+        const createLi = document.createElement('li');
+        createLi.innerHTML = arrayNumbers[num];
+        createUl.appendChild(createLi);
+      };
+      
     </script>
   </body>
 </html>
