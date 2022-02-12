@@ -125,7 +125,6 @@ function createHolidayButton(buttonName) {
     })
   };
   
-  let dezFridays = [ 4, 11, 18, 25 ];
   displayFridays(dezFridays);
 
   function dayMouseOver() {
