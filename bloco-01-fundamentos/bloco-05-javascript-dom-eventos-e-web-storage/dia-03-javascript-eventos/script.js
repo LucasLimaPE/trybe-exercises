@@ -1,3 +1,7 @@
+/* 
+Este exercício foi feito com base no gabarito.
+*/
+
 function createDaysOfTheWeek() {
     const weekDays = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado']
     const weekDaysList = document.querySelector('.week-days');
@@ -144,3 +148,14 @@ function createHolidayButton(buttonName) {
   
   dayMouseOver();
   dayMouseOut();
+
+  function newTaskSpan(task) {
+
+    let tasksContainer = document.querySelector('.my-tasks');
+    let taskName = document.createElement('span');
+  
+    taskName.innerHTML = task;
+    tasksContainer.appendChild(taskName);
+  };
+  
+  newTaskSpan('Projeto:');
